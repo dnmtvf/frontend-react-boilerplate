@@ -1,4 +1,9 @@
 {
   "presets": [["env", { "modules": false }], "stage-0", "react"],
   "plugins": ["react-hot-loader/babel"],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  }
 }
